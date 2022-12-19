@@ -1,7 +1,16 @@
+<?xml version="1.0"?>
 <launch>
+  <arg name="map_name"              default="bookstore"/>
+  <arg name="map_resource"          default="$(find robot_data)/data/map"/>
 
+  <!-- mapping -->
+  <node name="map_server" pkg="map_server" type="map_server" output="screen"
+    args="$(arg map_resource)/$(arg map_name)/map.yaml">
+  </node>
+
+  <!-- setup -->
   <node pkg="rviz" type="rviz" name="waypoint_nav_plugin"
-    args="-d $(find waypoint_navigation_plugin)/launch/waypoint_nav_plugin.rviz">
+    args="-d $(find waypoint_navigation_plugin)/rviz/waypoint_nav_plugin.rviz">
   </node>
 
 </launch>
