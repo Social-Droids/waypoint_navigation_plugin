@@ -17,12 +17,12 @@ To add waypoints, click on the Waypoint Navigation Tool in the Rviz toolbar, and
 To update the location of a waypoint, you can either drag the interactive marker associated with the waypoint, or use the Rviz panel to specify the new position.
 
 <div align="center">
-     <img src="doc/wp_doc_002.png" alt="Rviz" width="400px">
+     <img src="doc/wp_doc_002.png" alt="Rviz" width="500px">
 </div>
 ## Save Waypoints
 
 Para salvar os waypoints que foram adicionados no Rviz, primeiro clique no waypoint desejado na ferramenta Rviz. Em seguida, salve os pontos de referência no mesmo local do mapa usando o arquivo `way.yaml`. É importante observar que o arquivo `way.yaml` deve ser salvo no mesmo local que o arquivo de mapa.
 
 <div align="center">
-     <img src="doc/wp_doc_001.png" alt="Rviz" width="400px">
+     <img src="doc/wp_doc_001.png" alt="Rviz" width="500px">
 </div>
