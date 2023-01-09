@@ -27,3 +27,7 @@ Para salvar os waypoints que foram adicionados no Rviz, primeiro clique no waypo
 <div align="center">
      <img src="doc/wp_doc_001.png" alt="Rviz" width="650px">
 </div>
+
+
+**Warning** :
+It needs to have the `robot_data` version with the `way.yaml` files.
