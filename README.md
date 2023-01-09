@@ -31,7 +31,7 @@ To update the location of a waypoint, you can either drag the interactive marker
 
 ## Save Waypoints
 
-Para salvar os waypoints que foram adicionados no Rviz, primeiro clique no waypoint desejado na ferramenta Rviz. Em seguida, salve os pontos de referência no mesmo local do mapa usando o arquivo `way.yaml`. É importante observar que o arquivo `way.yaml` deve ser salvo no mesmo local que o arquivo de mapa.
+To save waypoints that have been added in Rviz, first click on the desired waypoint in the Rviz tool. Then save the waypoints to the same location on the map using the `way.yaml` file. It is important to note that the `way.yaml` file must be saved in the same location as the map file.
 
 <div align="center">
      <img src="doc/wp_doc_001.png" alt="Rviz" width="650px">
