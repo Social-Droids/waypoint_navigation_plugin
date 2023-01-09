@@ -1,4 +1,3 @@
-<?xml version="1.0"?>
 <launch>
   <arg name="map_name"              default="bookstore"/>
   <arg name="map_resource"          default="$(find robot_data)/data/map"/>
