@@ -11,6 +11,14 @@ The Waypoint Navigation Plugin is a tool for the Robot Operating System (ROS) th
 roslaunch waypoint_navigation_plugin rviz.launch
 ```
 This will open Rviz with the Waypoint Navigation Plugin added as a tool.
+To specify the name of the map to which you want to add or modify waypoints, you can provide the map_name argument in the roslaunch command as follows:
+```bash
+roslaunch waypoint_navigation_plugin rviz.launch map_name:=<name of map>
+```
+For example, to use the bookstore map, you would use:
+```bash
+roslaunch waypoint_navigation_plugin rviz.launch map_name:=bookstore
+```
 ## Adding and Editing Waypoints
 To add waypoints, click on the Waypoint Navigation Tool in the Rviz toolbar, and then click on the Rviz scene to place a waypoint. You can add multiple waypoints by repeating this process.
 
